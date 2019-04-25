@@ -10,6 +10,11 @@ object pepon {
 	}
 	method haceLoQueQuieras() { 
 		self.volar(1)
+	
+	}
+	
+	method energia(){
+		return 0
 	}
 }
 
@@ -23,6 +28,11 @@ object pipa {
 	
 	method volar(kms) {
 		acumuladoKmsRecorridos += kms
+	}
+	
+	method energia() {
+		return 0
+		
 	}
 	
 	/*

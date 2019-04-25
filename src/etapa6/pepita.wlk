@@ -8,6 +8,10 @@ object pepita {
 	method energia() { return energia }
 	method comer(cosa, gramos) { energia += cosa.energiaPorGramo() * gramos }
 	method volar(kms) { energia -= kms + 10 }
+	method puedeVolar(unosKms){
+		return energia >=10 + unosKms
+	
+		}
 	
 	// metodos nuevos
 	method estaDebil() { return self.energia() < 50 }  

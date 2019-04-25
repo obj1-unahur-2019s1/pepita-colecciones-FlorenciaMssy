@@ -1,4 +1,3 @@
-
 object patagonia {
 	method energiaQueAporta(ave) { return 30 }
 }
